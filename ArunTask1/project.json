@@ -1,0 +1,65 @@
+{
+  "name": "ArunTask1",
+  "description": "To Generate Yearly Report For Type WI4",
+  "main": "Main.xaml",
+  "dependencies": {
+    "DashBoardMenu": "[1.0.3]",
+    "DownloadMonthlyReport": "[1.0.4]",
+    "ExtractDt": "[1.0.2]",
+    "LoginTask": "[1.0.4]",
+    "Task-1": "[1.0.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[21.10.3]",
+    "UiPath.UIAutomation.Activities": "[21.10.4]",
+    "UpdateworkItemStatus": "[1.0.9]",
+    "uploadmergeReport": "[1.0.4]",
+    "WorkItemDataTableExtract": "[1.0.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "fc2135db-2023-4bf9-b1d9-a65672dee7f4",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
